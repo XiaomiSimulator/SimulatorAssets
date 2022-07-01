@@ -1,6 +1,6 @@
 @font-face {
   font-family: "MiCharactersOnly";
-  src: url("https://github.com/XiaomiSimulator/SimulatorAssets/raw/main/fonts/MiCharactersOnly.otf") format("opentype");
+  src: url("https://raw.githubusercontent.com/XiaomiSimulator/SimulatorAssets/main/fonts/MiCharactersOnly.otf") format("opentype");
 }
 
 .blocker {
