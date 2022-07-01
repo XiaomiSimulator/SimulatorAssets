@@ -1,5 +1,3 @@
-header('Content-Type: text/javascript');
-
 function startSimulator() {
   if (document.body.requestFullscreen) {
     document.body.requestFullscreen();
