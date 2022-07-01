@@ -1,3 +1,5 @@
+header('Content-Type: text/javascript');
+
 function startSimulator() {
   if (document.body.requestFullscreen) {
     document.body.requestFullscreen();
@@ -15,7 +17,9 @@ function startSimulator() {
   setTimeout(function () {
     document.getElementsByClassName("blocker")[0].style.display = "none";
     setTimeout(function () {
-      var bootsound = new Audio("assets/audio/bootaudio.mp3");
+      var bootsound = new Audio(
+        "https://github.com/XiaomiSimulator/SimulatorAssets/raw/main/boot/audio/bootaudio.mp3"
+      );
       bootsound.onended = function () {
         document.getElementsByClassName("miui_overlay")[0].style.animation =
           "move 5s linear 1s infinite";
