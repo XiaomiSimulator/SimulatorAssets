@@ -1,4 +1,9 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("load", function () {
+  if (document.body.requestFullscreen) {
+    document.body.requestFullscreen();
+  } else if (document.body.webkitRequestFullscreen) {
+    document.body.webkitRequestFullscreen();
+  }
   document.body.style.backgroundImage = `url("https://raw.githubusercontent.com/XiaomiSimulator/SimulatorAssets/main/images/wallpapers/${
     Math.floor(Math.random() * 23) + 1
   }.jpg")`;
@@ -40,7 +45,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
   var time = hours + ":" + minutes;
   document.getElementsByClassName("clock_text")[0].innerHTML = time;
-  document.getElementsByClassName("date_text")[0].innerHTML = `${day}/${month} ${day_of_the_week}`;
+  document.getElementsByClassName(
+    "date_text"
+  )[0].innerHTML = `${day}/${month} ${day_of_the_week}`;
   setInterval(function () {
     var date = new Date();
     var hours = date.getHours();
@@ -76,6 +83,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     var time = hours + ":" + minutes;
     document.getElementsByClassName("clock_text")[0].innerHTML = time;
-    document.getElementsByClassName("date_text")[0].innerHTML = `${day}/${month} ${day_of_the_week}`;
+    document.getElementsByClassName(
+      "date_text"
+    )[0].innerHTML = `${day}/${month} ${day_of_the_week}`;
   }, 1000);
 });

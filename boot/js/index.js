@@ -30,14 +30,18 @@ function startSimulator() {
     document.getElementsByClassName("xiaomi_div")[0].style.display = "none";
     document.getElementsByClassName("loader")[0].style.display = "none";
     setTimeout(function () {
-      window.location.replace("https://XiaomiSimulator.github.io/lockscreen.html");
+      window.location.replace(
+        "https://XiaomiSimulator.github.io/lockscreen.html"
+      );
     }, 18000);
   }, 16000);
 }
 
-window.addEventListener('load', function () {
+window.addEventListener("load", function () {
   document.getElementById("blocker_button").style.display = "block";
   document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById("blocker_button").addEventListener("click", startSimulator);
+    document
+      .getElementById("blocker_button")
+      .addEventListener("click", startSimulator);
   });
-})
+});
