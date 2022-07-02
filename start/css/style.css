@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "MiSansVF";
+  src: url("https://raw.githubusercontent.com/XiaomiSimulator/SimulatorAssets/main/fonts/MiSansVF.ttf")
+    format("truetype");
+}
+
+body {
+    background-color: black;
+}
+
+#button {
+  font-family: "MiSansVF";
+  height: 10%;
+  width: 10%;
+  margin: -5% -5%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  font-weight: bold;
+  border-radius: 1em;
+  border: 1px solid black;
+  display: none;
+}
