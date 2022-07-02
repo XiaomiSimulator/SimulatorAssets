@@ -4,20 +4,20 @@
     format("truetype");
 }
 
-body {
-    background-color: black;
+.start {
+  font-family: "MiSansVF";
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
+  font-size: 10em;
+  display: none;
 }
 
-#button {
-  font-family: "MiSansVF";
-  height: 10%;
-  width: 10%;
-  margin: -5% -5%;
-  position: relative;
-  top: 50%;
+.start_box {
+  position: absolute;
   left: 50%;
-  font-weight: bold;
-  border-radius: 1em;
-  border: 1px solid black;
-  display: none;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
 }
