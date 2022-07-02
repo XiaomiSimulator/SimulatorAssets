@@ -8,6 +8,6 @@ window.onload = function () {
       } else if (document.body.webkitRequestFullscreen) {
         document.body.webkitRequestFullscreen();
       }
-      window.location.replace("https://XiaomiSimulator.github.io/boot.html");
+      window.location.href = "https://XiaomiSimulator.github.io/boot.html";
     });
 };
