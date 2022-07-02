@@ -1,11 +1,5 @@
 window.onload = function () {
-  if (document.body.requestFullscreen) {
-    document.body.requestFullscreen();
-  } else if (document.body.webkitRequestFullscreen) {
-    document.body.webkitRequestFullscreen();
-  }
   document.getElementsByClassName("blocker")[0].style.display = "none";
-  document.getElementById("blocker_button").style.display = "none";
   setTimeout(function () {
     document.getElementsByClassName("loader")[0].style.display = "block";
   }, 5000);
