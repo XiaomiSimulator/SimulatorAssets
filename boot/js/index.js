@@ -29,6 +29,9 @@ function startSimulator() {
     document.getElementsByClassName("miui_div")[0].style.display = "grid";
     document.getElementsByClassName("xiaomi_div")[0].style.display = "none";
     document.getElementsByClassName("loader")[0].style.display = "none";
+    setTimeout(function () {
+      window.location.replace("https://XiaomiSimulator.github.io/lockscreen.html");
+    }, 8000);
   }, 16000);
 }
 
