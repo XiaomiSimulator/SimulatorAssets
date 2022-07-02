@@ -1,4 +1,9 @@
 @font-face {
+  font-family: "MiClock";
+  src: url("https://raw.githubusercontent.com/XiaomiSimulator/SimulatorAssets/main/fonts/MiClock.otf") format("opentype");
+}
+
+@font-face {
   font-family: "MiSansVF";
   src: url("https://raw.githubusercontent.com/XiaomiSimulator/SimulatorAssets/main/fonts/MiSansVF.ttf") format("truetype");
 }
@@ -11,15 +16,17 @@
   z-index: 999999999;
 }
 
-button {
+#blocker_button {
   font-family: sans-serif;
-  height: 10%;
-  width: 10%;
+  height: 1em;
+  width: 1em;
   margin: -5% -5%;
   position: relative;
   top: 50%;
   left: 50%;
   font-weight: bold;
+  word-break: break-word;
+  text-align: center;
   border-radius: 1em;
   border: 1px solid #000;
 }
@@ -89,7 +96,7 @@ button {
 .loader {
   color: white;
   font-size: 200%;
-  font-family: "MiSansVF";
+  font-family: "MiClock";
   text-align: center;
   position: fixed;
   bottom: 5%;
