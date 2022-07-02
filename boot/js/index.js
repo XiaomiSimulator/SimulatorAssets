@@ -31,3 +31,7 @@ function startSimulator() {
     document.getElementsByClassName("loader")[0].style.display = "none";
   }, 16000);
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("blocker_button").addEventListener("click", startSimulator);
+});
