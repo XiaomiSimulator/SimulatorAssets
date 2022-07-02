@@ -1,4 +1,4 @@
-document.addEventListener("load", function () {
+window.onload = function () {
   if (document.body.requestFullscreen) {
     document.body.requestFullscreen();
   } else if (document.body.webkitRequestFullscreen) {
@@ -87,4 +87,4 @@ document.addEventListener("load", function () {
       "date_text"
     )[0].innerHTML = `${day}/${month} ${day_of_the_week}`;
   }, 1000);
-});
+};

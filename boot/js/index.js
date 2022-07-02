@@ -37,9 +37,9 @@ function startSimulator() {
   }, 16000);
 }
 
-window.addEventListener("load", function () {
+window.onload = function () {
   document.getElementById("blocker_button").style.display = "block";
   document
     .getElementById("blocker_button")
     .addEventListener("click", startSimulator);
-});
+};
