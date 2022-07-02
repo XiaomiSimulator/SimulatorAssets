@@ -1,11 +1,11 @@
 @font-face {
     font-family: "MiClock";
-    src: url(MiClock.otf) format("opentype");
+    src: url("https://raw.githubusercontent.com/XiaomiSimulator/SimulatorAssets/main/fonts/MiClock.otf") format("opentype");
 }
 
 @font-face {
     font-family: "MiSansVF";
-    src: url(MiSansVF.ttf) format("truetype");
+    src: url("https://raw.githubusercontent.com/XiaomiSimulator/SimulatorAssets/main/fonts/MiSansVF.ttf") format("truetype");
 }
 
 .clock_div {
