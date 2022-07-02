@@ -20,7 +20,7 @@ function startSimulator() {
       );
       bootsound.onended = function () {
         document.getElementsByClassName("miui_overlay")[0].style.animation =
-          "move 5s linear 1s infinite";
+          "move 4s linear 1s infinite";
         document.getElementsByClassName("miui_overlay")[0].style.opacity =
           "0.85";
       };
@@ -31,7 +31,7 @@ function startSimulator() {
     document.getElementsByClassName("loader")[0].style.display = "none";
     setTimeout(function () {
       window.location.replace("https://XiaomiSimulator.github.io/lockscreen.html");
-    }, 8000);
+    }, 18000);
   }, 16000);
 }
 
