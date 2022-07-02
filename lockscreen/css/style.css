@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "MiClock";
+    src: url(MiClock.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "MiSansVF";
+    src: url(MiSansVF.ttf) format("truetype");
+}
+
+.clock_div {
+    position: absolute;
+    top: 17.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.clock_text, .date_text {
+    font-family: "MiClock";
+    font-size: 3.5em;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.date_text {
+    font-size: 1em;
+    font-weight: 600;
+}
