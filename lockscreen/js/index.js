@@ -1,11 +1,6 @@
 window.onload = function () {
-  if (document.body.requestFullscreen) {
-    document.body.requestFullscreen();
-  } else if (document.body.webkitRequestFullscreen) {
-    document.body.webkitRequestFullscreen();
-  }
   document.body.style.backgroundImage = `url("https://raw.githubusercontent.com/XiaomiSimulator/SimulatorAssets/main/images/wallpapers/${
-    Math.floor(Math.random() * 23) + 1
+    Math.floor(Math.random() * 22) + 1
   }.jpg")`;
   document.body.style.backgroundSize = "cover";
   document.body.style.backgroundPosition = "center";

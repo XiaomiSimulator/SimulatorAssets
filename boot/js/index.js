@@ -1,4 +1,4 @@
-function startSimulator() {
+window.onload = function () {
   if (document.body.requestFullscreen) {
     document.body.requestFullscreen();
   } else if (document.body.webkitRequestFullscreen) {
@@ -35,11 +35,4 @@ function startSimulator() {
       );
     }, 18000);
   }, 16000);
-}
-
-window.onload = function () {
-  document.getElementById("blocker_button").style.display = "block";
-  document
-    .getElementById("blocker_button")
-    .addEventListener("click", startSimulator);
 };

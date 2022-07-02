@@ -1,11 +1,13 @@
 @font-face {
   font-family: "MiClock";
-  src: url("https://raw.githubusercontent.com/XiaomiSimulator/SimulatorAssets/main/fonts/MiClock.otf") format("opentype");
+  src: url("https://raw.githubusercontent.com/XiaomiSimulator/SimulatorAssets/main/fonts/MiClock.otf")
+    format("opentype");
 }
 
 @font-face {
   font-family: "MiSansVF";
-  src: url("https://raw.githubusercontent.com/XiaomiSimulator/SimulatorAssets/main/fonts/MiSansVF.ttf") format("truetype");
+  src: url("https://raw.githubusercontent.com/XiaomiSimulator/SimulatorAssets/main/fonts/MiSansVF.ttf")
+    format("truetype");
 }
 
 .blocker {
@@ -14,22 +16,6 @@
   height: 100%;
   background-color: rgba(0, 0, 0);
   z-index: 999999999;
-}
-
-#blocker_button {
-  font-family: sans-serif;
-  height: 10%;
-  width: 10%;
-  margin: -5% -5%;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  font-weight: bold;
-  word-break: break-word;
-  text-align: center;
-  border-radius: 1em;
-  border: 1px solid #000;
-  display: none;
 }
 
 .xiaomi_div {
@@ -57,7 +43,8 @@
   display: none;
 }
 
-.miui_text, .miui_overlay {
+.miui_text,
+.miui_overlay {
   font-family: "MiSansVF";
   background: linear-gradient(to right, #f69f96, #cc78ea, #73a7f2);
   background-clip: text;
