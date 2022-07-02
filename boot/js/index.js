@@ -35,6 +35,9 @@ function startSimulator() {
   }, 16000);
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("blocker_button").addEventListener("click", startSimulator);
-});
+window.addEventListener('load', function () {
+  document.getElementsById("blocker_button").style.display = "block";
+  document.addEventListener("DOMContentLoaded", function () {
+    document.getElementById("blocker_button").addEventListener("click", startSimulator);
+  });
+})

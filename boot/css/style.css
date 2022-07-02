@@ -29,6 +29,7 @@
   text-align: center;
   border-radius: 1em;
   border: 1px solid #000;
+  display: none;
 }
 
 .xiaomi_div {
