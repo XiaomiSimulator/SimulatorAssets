@@ -36,7 +36,7 @@ function startSimulator() {
 }
 
 window.addEventListener('load', function () {
-  document.getElementsById("blocker_button").style.display = "block";
+  document.getElementById("blocker_button").style.display = "block";
   document.addEventListener("DOMContentLoaded", function () {
     document.getElementById("blocker_button").addEventListener("click", startSimulator);
   });
