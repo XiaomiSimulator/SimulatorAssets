@@ -1,5 +1,5 @@
 window.onload = function () {
-  document.body.style.backgroundImage = `url("https://raw.githubusercontent.com/XiaomiSimulator/SimulatorAssets/main/images/wallpapers/${
+  document.body.style.backgroundImage = `url("https://xiaomisimulator.github.io/SimulatorAssets/images/wallpapers/${
     Math.floor(Math.random() * 22) + 1
   }.jpg")`;
   document.body.style.backgroundSize = "cover";

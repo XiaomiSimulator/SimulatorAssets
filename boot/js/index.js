@@ -10,7 +10,7 @@ window.onload = function () {
     document.getElementsByClassName("blocker")[0].style.display = "none";
     setTimeout(function () {
       var bootsound = new Audio(
-        "https://github.com/XiaomiSimulator/SimulatorAssets/raw/main/boot/audio/bootaudio.mp3"
+        "https://xiaomisimulator.github.io/SimulatorAssets/boot/audio/bootaudio.mp3"
       );
       bootsound.onended = function () {
         document.getElementsByClassName("miui_overlay")[0].style.animation =
