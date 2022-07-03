@@ -26,9 +26,6 @@ window.onload = function () {
       : day_of_the_week == 5
       ? "Friday"
       : "Saturday";
-  if (hours < 10) {
-    hours = "0" + hours;
-  }
   if (minutes < 10) {
     minutes = "0" + minutes;
   }
@@ -64,9 +61,6 @@ window.onload = function () {
         : day_of_the_week == 5
         ? "Friday"
         : "Saturday";
-    if (hours < 10) {
-      hours = "0" + hours;
-    }
     if (minutes < 10) {
       minutes = "0" + minutes;
     }
