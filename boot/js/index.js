@@ -25,7 +25,7 @@ window.onload = function () {
     document.getElementsByClassName("loader")[0].style.display = "none";
     setTimeout(function () {
       window.location.replace(
-        "https://XiaomiSimulator.github.io/lockscreen.html"
+        "https://XiaomiSimulator.github.io/sys/lockscreen.html"
       );
     }, 18000);
   }, 16000);
