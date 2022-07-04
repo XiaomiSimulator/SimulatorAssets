@@ -1,5 +1,5 @@
 window.onload = function () {
-  document.getElementsByClassName("start")[0].style.display = "block";
+  document.getElementsByClassName("start_div")[0].style.display = "block";
   document
     .getElementsByClassName("start")[0]
     .addEventListener("click", function () {
